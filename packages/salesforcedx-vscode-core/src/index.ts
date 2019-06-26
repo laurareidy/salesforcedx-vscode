@@ -42,6 +42,7 @@ import {
   forceSourceDeployManifest,
   forceSourceDeployMultipleSourcePaths,
   forceSourceDeploySourcePath,
+  forceSourceDiff,
   forceSourcePull,
   forceSourcePush,
   forceSourceRetrieveManifest,
@@ -297,6 +298,11 @@ function registerCommands(
     forceConfigSet
   );
 
+  const forceDiffFile = vscode.commands.registerCommand(
+    'sfdx.force.diff',
+    forceSourceDiff
+  );
+
   return vscode.Disposable.from(
     forceApexExecuteDocumentCmd,
     forceApexExecuteSelectionCmd,
@@ -306,6 +312,7 @@ function registerCommands(
     forceAuthLogoutAllCmd,
     forceDataSoqlQueryInputCmd,
     forceDataSoqlQuerySelectionCmd,
+    forceDiffFile,
     forceOrgCreateCmd,
     forceOrgOpenCmd,
     forceSourceDeleteCmd,
