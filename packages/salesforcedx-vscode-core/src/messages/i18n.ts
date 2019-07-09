@@ -70,6 +70,8 @@ export const messages = {
     'SFDX: Create a Default Scratch Org...',
 
   force_org_open_default_scratch_org_text: 'SFDX: Open Default Org',
+  force_org_open_container_mode_message_text:
+    'Access org %s as user %s with the following URL: %s',
 
   force_source_pull_default_scratch_org_text:
     'SFDX: Pull Source from Default Scratch Org',
