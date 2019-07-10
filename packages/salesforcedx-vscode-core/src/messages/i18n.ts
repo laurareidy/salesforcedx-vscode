@@ -68,6 +68,8 @@ export const messages = {
 
   force_org_create_default_scratch_org_text:
     'SFDX: Create a Default Scratch Org...',
+  force_org_create_result_parsing_error:
+    'There was an unexpected error when processing the org create response.',
 
   force_org_open_default_scratch_org_text: 'SFDX: Open Default Org',
   force_org_open_container_mode_message_text:
@@ -254,5 +256,11 @@ export const messages = {
   aura_bundle_message_name: 'Aura Bundle',
   lwc_message_name: 'Lightning Web Component',
   force_lightning_lwc_create_text: 'SFDX: Create Lightning Web Component',
-  force_list_metadata_text: 'SFDX: List Metadata'
+  empty_components: 'No components available',
+  error_auth_token: 'Error refreshing authentication token.',
+  error_no_org_found: 'No org authorization info found.',
+  error_fetching_metadata: 'Error fetching metadata for org.',
+  error_org_browser_text:
+    'Run "SFDX: Authorize an Org" to authorize your org again.',
+  force_list_metadata: 'SFDX: Force List Metadata'
 };
