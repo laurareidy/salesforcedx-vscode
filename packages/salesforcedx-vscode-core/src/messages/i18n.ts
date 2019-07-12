@@ -73,7 +73,7 @@ export const messages = {
 
   force_org_open_default_scratch_org_text: 'SFDX: Open Default Org',
   force_org_open_default_scratch_org_container_error:
-    'There was an unexpected error when processing the org open response.',
+    'An unexpected error occurred while processing the org open response.',
   force_org_open_container_mode_message_text:
     'Access org %s as user %s with the following URL: %s',
 
