@@ -120,6 +120,6 @@ export class ComponentUtils {
         : parentNode.fullName;
     const componentName = componentNode.fullName;
     const metadataArg = `${typeName}:${componentName}`;
-    await forceSourceRetrieve(componentName);
+    await forceSourceRetrieve(metadataArg);
   }
 }
